@@ -13,7 +13,6 @@ public class LoginPage {
 		driver=tdriver;
 		PageFactory.initElements(tdriver,this);
 	}
-	
 	@FindBy(id="username")
 	WebElement txtUserName;
 	
